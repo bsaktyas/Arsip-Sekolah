@@ -1,4 +1,4 @@
-# ArsipSurat2
+# Arsip Surat
 
-1.import db (sql/arsip.sql) <br>
-2.change config (config/config.php)
+1.Import db (sql/arsip2.sql) <br>
+2.Change config (config/config.php)

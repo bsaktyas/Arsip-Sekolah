@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 26, 2024 at 12:30 PM
+-- Generation Time: Sep 26, 2024 at 01:08 PM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.4.10
 
@@ -41,8 +41,9 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `nama`, `email`, `username`, `password`, `photo`) VALUES
-(6, 'bima', 'bima@gmail.com', 'bimas', '$2y$10$g1UDA3VeLR6Na4GOnFj0NegYpBB56Ak.OlQzkN4a4NHaS6MeLcnSO', '1727346600dwdw2.png'),
-(10, 'dwa', 'bima.sakti278@gmail.com', 'ada', '$2y$10$DMoKJ4DxTXThfX8Qvkm5qurPGIHmeWAvXe7THgV4erWFeT6Px5KLC', '1727346399840723_1200.jpg');
+(6, 'bima', 'bima@gmail.com', 'bimas', '54321', '1727346600dwdw2.png'),
+(10, 'dwa', 'bima.sakti278@gmail.com', 'ada', '444', '1727346399840723_1200.jpg'),
+(11, 'abab', 'bima@gmail.com', 'abab', '123', '1727348412Ditto.jpg');
 
 -- --------------------------------------------------------
 
@@ -105,8 +106,7 @@ CREATE TABLE `surat_masuk` (
 --
 
 INSERT INTO `surat_masuk` (`id`, `no_surat`, `perihal`, `lampiran`, `kepada`, `dari`, `id_jenis`, `keterangan`, `tgl_surat`, `isi_surat`) VALUES
-(20, 'dwa', 'awd', '1727341285pngtree-temple-clipart-cartoon-image-of-a-temple-in-a-forest-vector-png-image_6825218.png', '123', '123321', 1, 'Surat Masuk', '2021-06-18 17:00:00', '<p>dwadwa</p>'),
-(21, 'dadwa', 'awdadsdas', '1727341308pngtree-temple-clipart-cartoon-image-of-a-temple-in-a-forest-vector-png-image_6825218.png', 'dada', 'dad', 1, 'Surat Masuk', '0000-00-00 00:00:00', '<p>adwda</p>');
+(20, 'dwa', 'awd', '1727341285pngtree-temple-clipart-cartoon-image-of-a-temple-in-a-forest-vector-png-image_6825218.png', '123', '123321', 1, 'Surat Masuk', '2021-06-18 17:00:00', '<p>dwadwa</p>');
 
 --
 -- Indexes for dumped tables
@@ -144,7 +144,7 @@ ALTER TABLE `surat_masuk`
 -- AUTO_INCREMENT for table `admin`
 --
 ALTER TABLE `admin`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT for table `jenis_surat`
